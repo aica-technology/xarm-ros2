@@ -38,6 +38,7 @@ install(DIRECTORY
   config
   meshes
   launch
+  urdf_examples
   DESTINATION share/${PROJECT_NAME}/
 )
 
