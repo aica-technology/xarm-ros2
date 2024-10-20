@@ -16,5 +16,17 @@ ros-name = "collections_xarm_collection"
 type = "ros"
 image = "v2.0.0-jazzy"
 
+[build.packages.sdk]
+source = "xarm_sdk"
+
+[build.packages.api]
+source = "xarm_api"
+
+[build.packages.msgs]
+source = "xarm_msgs"
+
 [build.packages.description]
 source = "xarm_description"
+
+[build.packages.interface]
+source = "xarm_controller"

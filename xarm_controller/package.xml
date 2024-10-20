@@ -23,7 +23,7 @@
   <depend>xarm_api</depend>
 
   <exec_depend>robot_state_publisher</exec_depend>
-  <exec_depend>joint_state_publisher</exec_depend>
+  <!-- <exec_depend>joint_state_publisher</exec_depend> -->
   <exec_depend>controller_manager</exec_depend>
   <exec_depend>rviz2</exec_depend>
   <exec_depend>xacro</exec_depend>
