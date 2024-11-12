@@ -3,4 +3,4 @@ xarm6.urdf:
   description: "xArm6"
 xarm6_mock.urdf:
   name: "UFactory xArm6 (mock interface)"
-  description: "xArm6 with a mock interface and initial joint positions [0.0, -1.57, 1.57, -1.57, -1.57, 0.0]"
+  description: "xArm6 with a mock interface and initial joint positions [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]"
