@@ -1,0 +1,32 @@
+#syntax=ghcr.io/aica-technology/package-builder:v1.3.0
+
+[signing]
+enabled = false
+signer = "v2.0.2"
+
+[metadata]
+version = "0.0.1"
+description = "xArm collection"
+
+[metadata.collection]
+name = "collections/xarm-collection"
+ros-name = "collections_xarm_collection"
+
+[build]
+type = "ros"
+image = "v2.0.0-jazzy"
+
+[build.packages.sdk]
+source = "xarm_sdk"
+
+[build.packages.api]
+source = "xarm_api"
+
+[build.packages.msgs]
+source = "xarm_msgs"
+
+[build.packages.description]
+source = "xarm_description"
+
+[build.packages.interface]
+source = "xarm_controller"
