@@ -58,7 +58,7 @@ namespace xarm_api
 
     void XArmDriver::_report_data_callback(XArmReportData *report_data_ptr)
     {
-        // RCLCPP_INFO(node_->get_logger(), "[1] state: %d, error_code: %d", report_data_ptr->state, report_data_ptr->err);
+        RCLCPP_INFO(node_->get_logger(), "[1] state: %d, error_code: %d", report_data_ptr->state, report_data_ptr->err);
         curr_state = report_data_ptr->state;
         curr_err = report_data_ptr->err;
         curr_mode = report_data_ptr->mode;
